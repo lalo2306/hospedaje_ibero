@@ -122,7 +122,7 @@ const ST = {
 // ─── IBERO LOGO (Design System oficial — pastilla roja) ───────────────────
 const Logo = ({height=36, white=false}) => (
   <div style={{display:"flex",alignItems:"center",gap:0}}>
-    <div style={{background:white?"rgba(255,255,255,0.15)":DS.red500,borderRadius:white?8:10,padding:${height*0.18}px ${height*0.32}px,display:"flex",flexDirection:"column",alignItems:"flex-start"}}>
+    <div style={{background:white?"rgba(255,255,255,0.15)":DS.red500,borderRadius:white?8:10,padding: `${height * 0.18}px ${height * 0.32}px`,display:"flex",flexDirection:"column",alignItems:"flex-start"}}>
       <span style={{color:"white",fontWeight:900,fontSize:height*0.55,fontFamily:"'Plus Jakarta Sans','Outfit',system-ui,sans-serif",letterSpacing:"-0.02em",lineHeight:1}}>IBERO</span>
       <span style={{color:"rgba(255,255,255,0.85)",fontWeight:400,fontSize:height*0.22,letterSpacing:"0.08em",lineHeight:1.2}}>CIUDAD DE MÉXICO</span>
     </div>
